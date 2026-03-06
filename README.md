@@ -7,7 +7,7 @@
 - **목표**: 토마토 잎/과실 이미지에서 질병 증상을 객체 탐지(Object Detection)로 식별
 - **모델**: Ultralytics YOLO (`yolo11s.pt` 기반 학습)
 - **학습 방식**: 노트북에서 `model.train(...)` 실행
-- **주요 산출물**: best/last 가중치, confusion matrix, PR/F1/Precision/Recall curve, 학습 로그
+- **모델 학습 결과**는 `runs/detect/train/`를 참고, best/last 가중치, confusion matrix, PR/F1/Precision/Recall curve, 학습 로그가 정리되어 있음
 
 ## 저장소 구조
 ```text
